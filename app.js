@@ -49,4 +49,5 @@ const cardArray = [
     }
 ]
 
-console.log(cardArray)
+cardArray.sort(() => 0.5 - Math.random())
+
